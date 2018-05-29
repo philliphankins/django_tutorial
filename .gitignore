@@ -1,0 +1,10 @@
+# python
+*.pyc
+*.pyo
+
+# database
+*.sqlite3
+
+# pycharm
+.idea/
+.idea/*

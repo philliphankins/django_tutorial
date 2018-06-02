@@ -7,6 +7,8 @@ from mysite.apps.polls.models import Question
 
 from django.urls import reverse
 
+from django.views import generic
+
 
 class QuestionModelTests(TestCase):
 
@@ -104,7 +106,6 @@ class QuestionModelTests(TestCase):
             )
 
     class DetailView(generic.DetailView):
-        ...
 
         def get_queryset(self):
             """
